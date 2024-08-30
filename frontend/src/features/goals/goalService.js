@@ -1,8 +1,8 @@
 import axios from 'axios'
 
-const API_URL = '/api/goals/'
+//const API_URL = '/api/goals/'
 // const API_URL = 'http://localhost:8000/api/goals/'
-// const API_URL = 'https://targettracker.onrender.com/api/goals/'
+const API_URL = 'https://targettracker.onrender.com/api/goals/'
 
 // Create new goal
 const createGoal = async (goalData,completeTime,priority, token) => {
