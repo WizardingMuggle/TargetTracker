@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <div className='footer'>
-      <p>Made by <a href='https://its-atishay.vercel.app' target='_blank' rel="noreferrer" className='link'>Atishay Jain</a></p>
+      <p>2024 © All right reserved</p>
     </div>
   )
 }
