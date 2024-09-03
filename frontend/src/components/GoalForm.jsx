@@ -3,11 +3,11 @@ import { useDispatch } from 'react-redux'
 import { createGoal } from '../features/goals/goalSlice'
 
 function GoalForm(props) {
-  const [text, setText] = useState('')
+  const [text, setText] = useState('');
   const [completeTime, setCompleteTime] = useState(null);
-  const [priority, setPriority] = useState(0)
+  const [priority, setPriority] = useState(0);
   
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   const onSubmit = (e) => {
     e.preventDefault()
